@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .message {
+      border: 1px solis black;
+    }
+    .message--success {
+      border: 1px solis green;
+    }
+    .message--error {
+      border: 1px solis red;
+    }
+  </style>
+  <body>
+    <!-- Block + Element -->
+    <div class="popup">
+      <h3 class="popup__title">Title</h3>
+      <p class="popup__text">Text</p>
+      <button class="popup__button">Click me</button>
+    </div>
+    <!-- Block + Element + Modificator -->
+    <div class="message">
+      <h3 class="message__title">Title</h3>
+      <div class="message__text">Text</div>
+    </div>
+
+    <div class="message massage--success">
+      <h3 class="message__title">Title</h3>
+      <div class="message__text">Text</div>
+    </div>
+
+    <div class="message massage--error">
+      <h3 class="message__title">Title</h3>
+      <div class="message__text">Text</div>
+    </div>
+
+    <div class="news">
+      <h3 class="news__title">Title</h3>
+      <ul class="news__list">
+        <li class="news__item news-item">
+          <h4 class="news-item__title">Title</h4>
+          <p class="news-item__text">Text</p>
+        </li>
+        <li class="news__item">News2</li>
+      </ul>
+    </div>
+  </body>
+</html>
