@@ -1,0 +1,122 @@
+$mainColor: #5222D0;
+$buttonColor: #FFFFFF;
+$hoverColor: #EC615B;
+
+.header__button {
+    display: flex;
+    align-items: center;
+}
+.button-cart__button,
+.card__button {
+    background-color: $mainColor;
+    color: $buttonColor;
+    display: flex;
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 38px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 100px;
+    border: none;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5% 3% 5%;
+}
+
+.header__logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+// Основной контент
+
+.main__content content-box {
+    max-width: 100%;
+    padding-bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.content-box__title {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-left: 10%;
+}
+// Карточки
+.content-box__cards {
+    max-width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    // border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: space-around;
+    align-items: stretch;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin: 0 auto;
+}
+
+.card__img {
+    max-width: 100%;
+}
+.card-body__title {
+    font-size: 25px;
+}
+.card-body__text {
+    font-size: 16px;
+}
+.card-box__card6 {
+    background-color: $hoverColor;
+    display: grid;
+    gap: 5%;
+    padding-left: 5%;
+}
+.card6__title {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+.card-box__card1 {
+    border: 1px solid $hoverColor;
+    padding: 5%;
+}
+.card-box__card2, 
+.card-box__card3,
+.card-box__card5,
+.card-box__card6 {
+    border: 1px solid #FFFFFF;
+    padding: 5%;
+}
+.card-box__card4 {
+    border: 1px solid $hoverColor;
+    padding: 5%;
+    margin-left: -5%;
+    margin-right: 5%;
+}
+
+// Навигация
+.content-box__navigation {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.content-box__links {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    color: #000000;
+}
+.content-box__item > a {
+    text-decoration: none;
+}
+.content-box__item > a:hover {
+    color: $hoverColor;
+}
