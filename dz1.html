@@ -7,10 +7,134 @@
     <!-- Локальное подключение bootstrap -->
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
   </head>
+
   <body>
-    <div class="nav">
-      Start Bootstrap
-      <ul class="nav"></ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-lg-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Основной контент -->
+    <div class="container px-4">
+      <div class="row">
+        <div class="col border bg-light">
+          <h1>A Warm Welcome!</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis
+            porttitor magna. Proin facilisis lectus mauris, posuere sagittis
+            elit vestibulum in. Duis sit amet lectus auctor, gravida nisi eget,
+            elementum est.
+          </p>
+          <button type="button" class="btn btn-primary">Call to action!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Карточки -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
+        <article class="col">
+          <div class="card text-center">
+            <img src="./styles/ITimage.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                mollis sem nec sem efficitur, accumsan porttitor ipsum posuere.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="card text-center">
+            <img src="./styles/ITimage.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                mollis sem nec sem efficitur, accumsan porttitor ipsum posuere.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="card text-center">
+            <img src="./styles/ITimage.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                mollis sem nec sem efficitur, accumsan porttitor ipsum posuere.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="card text-center">
+            <img src="./styles/ITimage.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                mollis sem nec sem efficitur, accumsan porttitor ipsum posuere.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Футер -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-dark text-light text-center" style="height: 5rem">
+          <p>Copyright © Your Website 2024</p>
+        </div>
+      </div>
     </div>
     <!-- Локальное подключение bootstrap -->
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
